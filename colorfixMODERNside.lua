@@ -1,7 +1,7 @@
 local function scan(parent)
 	for _,v in pairs(parent:GetChildren()) do
-		if v.BrickColor then
-			if not v:FindFirstChild("BrickColorValue") or not v.ClassName == "BrickColorValue" then
+		if v.ClassName == "Part" or v.ClassName == "MeshPart" or v.ClassName == "WedgePart" or v.ClassName == "CornerWedgePart" or v.ClassName == "TrussPart" or v.ClassName == "Union" then
+			if not v:FindFirstChild("BrickColorValue") then
 				local ogpartcolor = Instance.new("BrickColorValue")
 				ogpartcolor.Name = "BrickColorValue"
 				ogpartcolor.Value = v.BrickColor
@@ -11,4 +11,4 @@ local function scan(parent)
 		scan(v)
 	end
 end
-scan(game)
+scan(game:GetService("Workspace"))
