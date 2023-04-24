@@ -1,0 +1,335 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.limrev.xyz/roblox.xsd" version="4">
+	<External>null</External>
+	<External>nil</External>
+	<Item class="Model" referent="RBXFA7D60F26A7C4859AB1B48268CC54AB7">
+		<Properties>
+			<CoordinateFrame name="ModelInPrimary">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+				<R00>1</R00>
+				<R01>0</R01>
+				<R02>0</R02>
+				<R10>0</R10>
+				<R11>1</R11>
+				<R12>0</R12>
+				<R20>0</R20>
+				<R21>0</R21>
+				<R22>1</R22>
+			</CoordinateFrame>
+			<string name="Name">ServerStatsScript</string>
+			<Ref name="PrimaryPart">null</Ref>
+		</Properties>
+		<Item class="Folder" referent="RBX2B546E69179F48868F4D95626C1FBBCC">
+			<Properties>
+				<string name="Name">ScreenGui</string>
+			</Properties>
+			<Item class="ScreenGui" referent="RBX177F441A4BC74998993E6C7F1F24D8E4">
+				<Properties>
+					<int name="DisplayOrder">0</int>
+					<bool name="Enabled">true</bool>
+					<string name="Name">ServerStats</string>
+					<bool name="ResetOnSpawn">true</bool>
+				</Properties>
+				<Item class="TextLabel" referent="RBX8CB4D220595147BD95B43FBDC333E63D">
+					<Properties>
+						<bool name="Active">false</bool>
+						<Vector2 name="AnchorPoint">
+							<X>0</X>
+							<Y>0</Y>
+						</Vector2>
+						<Color3 name="BackgroundColor3">4294967295</Color3>
+						<float name="BackgroundTransparency">1</float>
+						<Color3 name="BorderColor3">4279970357</Color3>
+						<int name="BorderSizePixel">0</int>
+						<bool name="ClipsDescendants">false</bool>
+						<bool name="Draggable">false</bool>
+						<token name="Font">3</token>
+						<token name="FontSize">5</token>
+						<string name="Name">PlaceVersion</string>
+						<Ref name="NextSelectionDown">null</Ref>
+						<Ref name="NextSelectionLeft">null</Ref>
+						<Ref name="NextSelectionRight">null</Ref>
+						<Ref name="NextSelectionUp">null</Ref>
+						<UDim2 name="Position">
+							<XS>0</XS>
+							<XO>1</XO>
+							<YS>0</YS>
+							<YO>35</YO>
+						</UDim2>
+						<float name="Rotation">0</float>
+						<bool name="Selectable">false</bool>
+						<Ref name="SelectionImageObject">null</Ref>
+						<UDim2 name="Size">
+							<XS>0</XS>
+							<XO>250</XO>
+							<YS>0</YS>
+							<YO>10</YO>
+						</UDim2>
+						<token name="SizeConstraint">0</token>
+						<string name="Text">Place Version:</string>
+						<Color3 name="TextColor3">4294967295</Color3>
+						<bool name="TextScaled">false</bool>
+						<float name="TextSize">14</float>
+						<Color3 name="TextStrokeColor3">4278190080</Color3>
+						<float name="TextStrokeTransparency">0.5</float>
+						<float name="TextTransparency">0</float>
+						<bool name="TextWrapped">false</bool>
+						<token name="TextXAlignment">0</token>
+						<token name="TextYAlignment">1</token>
+						<bool name="Visible">true</bool>
+						<int name="ZIndex">1</int>
+					</Properties>
+				</Item>
+				<Item class="TextLabel" referent="RBX0A6553D99BBF4C8D9C68C60CEE9D6F4B">
+					<Properties>
+						<bool name="Active">false</bool>
+						<Vector2 name="AnchorPoint">
+							<X>0</X>
+							<Y>0</Y>
+						</Vector2>
+						<Color3 name="BackgroundColor3">4294967295</Color3>
+						<float name="BackgroundTransparency">1</float>
+						<Color3 name="BorderColor3">4279970357</Color3>
+						<int name="BorderSizePixel">0</int>
+						<bool name="ClipsDescendants">false</bool>
+						<bool name="Draggable">false</bool>
+						<token name="Font">3</token>
+						<token name="FontSize">5</token>
+						<string name="Name">JobId</string>
+						<Ref name="NextSelectionDown">null</Ref>
+						<Ref name="NextSelectionLeft">null</Ref>
+						<Ref name="NextSelectionRight">null</Ref>
+						<Ref name="NextSelectionUp">null</Ref>
+						<UDim2 name="Position">
+							<XS>0</XS>
+							<XO>1</XO>
+							<YS>0</YS>
+							<YO>5</YO>
+						</UDim2>
+						<float name="Rotation">0</float>
+						<bool name="Selectable">false</bool>
+						<Ref name="SelectionImageObject">null</Ref>
+						<UDim2 name="Size">
+							<XS>0</XS>
+							<XO>250</XO>
+							<YS>0</YS>
+							<YO>10</YO>
+						</UDim2>
+						<token name="SizeConstraint">0</token>
+						<string name="Text">JobId:</string>
+						<Color3 name="TextColor3">4294967295</Color3>
+						<bool name="TextScaled">false</bool>
+						<float name="TextSize">14</float>
+						<Color3 name="TextStrokeColor3">4278190080</Color3>
+						<float name="TextStrokeTransparency">0.5</float>
+						<float name="TextTransparency">0</float>
+						<bool name="TextWrapped">false</bool>
+						<token name="TextXAlignment">0</token>
+						<token name="TextYAlignment">1</token>
+						<bool name="Visible">true</bool>
+						<int name="ZIndex">1</int>
+					</Properties>
+				</Item>
+				<Item class="TextLabel" referent="RBX86906A428B26467BBC1E7B1285F9C298">
+					<Properties>
+						<bool name="Active">false</bool>
+						<Vector2 name="AnchorPoint">
+							<X>0</X>
+							<Y>0</Y>
+						</Vector2>
+						<Color3 name="BackgroundColor3">4294967295</Color3>
+						<float name="BackgroundTransparency">1</float>
+						<Color3 name="BorderColor3">4279970357</Color3>
+						<int name="BorderSizePixel">0</int>
+						<bool name="ClipsDescendants">false</bool>
+						<bool name="Draggable">false</bool>
+						<token name="Font">3</token>
+						<token name="FontSize">5</token>
+						<string name="Name">PlaceId</string>
+						<Ref name="NextSelectionDown">null</Ref>
+						<Ref name="NextSelectionLeft">null</Ref>
+						<Ref name="NextSelectionRight">null</Ref>
+						<Ref name="NextSelectionUp">null</Ref>
+						<UDim2 name="Position">
+							<XS>0</XS>
+							<XO>1</XO>
+							<YS>0</YS>
+							<YO>50</YO>
+						</UDim2>
+						<float name="Rotation">0</float>
+						<bool name="Selectable">false</bool>
+						<Ref name="SelectionImageObject">null</Ref>
+						<UDim2 name="Size">
+							<XS>0</XS>
+							<XO>250</XO>
+							<YS>0</YS>
+							<YO>10</YO>
+						</UDim2>
+						<token name="SizeConstraint">0</token>
+						<string name="Text">PlaceId:</string>
+						<Color3 name="TextColor3">4294967295</Color3>
+						<bool name="TextScaled">false</bool>
+						<float name="TextSize">14</float>
+						<Color3 name="TextStrokeColor3">4278190080</Color3>
+						<float name="TextStrokeTransparency">0.5</float>
+						<float name="TextTransparency">0</float>
+						<bool name="TextWrapped">false</bool>
+						<token name="TextXAlignment">0</token>
+						<token name="TextYAlignment">1</token>
+						<bool name="Visible">true</bool>
+						<int name="ZIndex">1</int>
+					</Properties>
+				</Item>
+				<Item class="TextLabel" referent="RBX031F939DE001433DB2D94747DC62608B">
+					<Properties>
+						<bool name="Active">false</bool>
+						<Vector2 name="AnchorPoint">
+							<X>0</X>
+							<Y>0</Y>
+						</Vector2>
+						<Color3 name="BackgroundColor3">4294967295</Color3>
+						<float name="BackgroundTransparency">1</float>
+						<Color3 name="BorderColor3">4279970357</Color3>
+						<int name="BorderSizePixel">0</int>
+						<bool name="ClipsDescendants">false</bool>
+						<bool name="Draggable">false</bool>
+						<token name="Font">3</token>
+						<token name="FontSize">5</token>
+						<string name="Name">ServerAge</string>
+						<Ref name="NextSelectionDown">null</Ref>
+						<Ref name="NextSelectionLeft">null</Ref>
+						<Ref name="NextSelectionRight">null</Ref>
+						<Ref name="NextSelectionUp">null</Ref>
+						<UDim2 name="Position">
+							<XS>0</XS>
+							<XO>1</XO>
+							<YS>0</YS>
+							<YO>20</YO>
+						</UDim2>
+						<float name="Rotation">0</float>
+						<bool name="Selectable">false</bool>
+						<Ref name="SelectionImageObject">null</Ref>
+						<UDim2 name="Size">
+							<XS>0</XS>
+							<XO>250</XO>
+							<YS>0</YS>
+							<YO>10</YO>
+						</UDim2>
+						<token name="SizeConstraint">0</token>
+						<string name="Text">Server Age:</string>
+						<Color3 name="TextColor3">4294967295</Color3>
+						<bool name="TextScaled">false</bool>
+						<float name="TextSize">14</float>
+						<Color3 name="TextStrokeColor3">4278190080</Color3>
+						<float name="TextStrokeTransparency">0.5</float>
+						<float name="TextTransparency">0</float>
+						<bool name="TextWrapped">false</bool>
+						<token name="TextXAlignment">0</token>
+						<token name="TextYAlignment">1</token>
+						<bool name="Visible">true</bool>
+						<int name="ZIndex">1</int>
+					</Properties>
+				</Item>
+				<Item class="LocalScript" referent="RBX1EF56C8F362641D7AD1E77EDAF7D503C">
+					<Properties>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">LocalScript</string>
+						<string name="ScriptGuid"></string>
+						<ProtectedString name="Source"><![CDATA[local gui = script.Parent 
+
+--check every second
+while true do 
+	--seconds since the server started
+	wait(1)
+	gui.ServerAge.Text = "Server Age: " .. game:GetService("Workspace")._ServerStats.CurrentServerAge.Value
+	gui.PlaceVersion.Text = "Place Version: " .. game.PlaceVersion
+	gui.PlaceId.Text = "PlaceId: " .. game.PlaceId
+	gui.JobId.Text = "JobId: " .. game:GetService("Workspace")._ServerStats.CurrentJobId.Value
+end ]]></ProtectedString>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="Folder" referent="RBXB1B7CB41D5104872A1B17631772B2385">
+			<Properties>
+				<string name="Name">Workspace</string>
+			</Properties>
+			<Item class="Backpack" referent="RBXB02FBA8DF8954AE5BEAD630CBD090474">
+				<Properties>
+					<string name="Name">_ServerStats</string>
+				</Properties>
+				<Item class="StringValue" referent="RBX51D146CA812B4312A56CD37B133DFD69">
+					<Properties>
+						<string name="Name">CurrentJobId</string>
+						<string name="Value"></string>
+					</Properties>
+				</Item>
+				<Item class="StringValue" referent="RBX480F30E3120C47B8A520455E2AC94F14">
+					<Properties>
+						<string name="Name">CurrentServerAge</string>
+						<string name="Value"></string>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="Folder" referent="RBX3720DFDD68944B639CA3E1A4E386781E">
+			<Properties>
+				<string name="Name">ServerScriptStorage</string>
+			</Properties>
+			<Item class="Script" referent="RBXF37BF4824A984BADBB57B02E0D9CB643">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">ServerStats</string>
+					<string name="ScriptGuid"></string>
+					<ProtectedString name="Source"><![CDATA[--format function to maintain zeros(for example 0:2:5:10 -> 00:02:05:10)
+function f(text)
+	return string.format("%02i", text)
+end
+
+function toText(value)
+	--a day has 86400 seconds
+	local days = math.floor(value/86400)
+	value = value % 86400
+	local hours = math.floor(value/3600) 
+	value = value % 3600
+	local minutes = math.floor(value/60) 
+	value = value % 60
+	local seconds = value 
+	
+	return f(days)..":"..f(hours)..":"..f(minutes)..":"..f(seconds)
+end
+
+--check every second
+while true do 
+	--seconds since the server started
+	wait(1)
+	local seconds = workspace.DistributedGameTime
+	local text = toText(seconds)
+	game:GetService("Workspace")._ServerStats.CurrentServerAge.Value = text
+	game:GetService("Workspace")._ServerStats.CurrentJobId.Value = game.JobId
+end]]></ProtectedString>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Script" referent="RBX400EAFAEDECF419AAE40F6052250717E">
+			<Properties>
+				<bool name="Disabled">true</bool>
+				<Content name="LinkedSource"><null></null></Content>
+				<string name="Name">readme</string>
+				<string name="ScriptGuid"></string>
+				<ProtectedString name="Source"><![CDATA[--[[
+	script made to show the Server Age, the JobId, the Place Version and the 
+	PlaceId of the current server.
+	
+	instructions: place the contents of the folders in their responsive
+	"services" (or the sort of folders on the root of the explorer)
+	
+	made by Phil564#7767 or Phil564 on GitHub
+]]]]></ProtectedString>
+			</Properties>
+		</Item>
+	</Item>
+</roblox>
