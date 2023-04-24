@@ -276,7 +276,7 @@ end ]]></ProtectedString>
 		</Item>
 		<Item class="Folder" referent="RBX3720DFDD68944B639CA3E1A4E386781E">
 			<Properties>
-				<string name="Name">ServerScriptStorage</string>
+				<string name="Name">ServerScriptService</string>
 			</Properties>
 			<Item class="Script" referent="RBXF37BF4824A984BADBB57B02E0D9CB643">
 				<Properties>
